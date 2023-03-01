@@ -1,0 +1,63 @@
+h1 {
+  color: rgb(22, 85, 187);
+}
+
+body {
+  text-align: center;
+  height: 100vh;
+  background-color: khaki;
+
+  background-image: url("https://www.pixelstalk.net/wp-content/uploads/images1/White-clouds-background-hd.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.cover {
+  background-color: rgb(187, 218, 223);
+  padding: 15px;
+  margin: 20px;
+  border-radius: 30px;
+  border: 1px solid rgb(33, 103, 216);
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+}
+
+.button {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 17px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: rgb(0, 0, 0);
+  background-color: rgb(112, 184, 243);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px rgb(101, 134, 161);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.button:hover {
+  background-color: rgb(51, 145, 221);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.button:active {
+  background-color: rgb(51, 145, 221);
+  box-shadow: 0 5px rgb(73, 95, 114);
+  transform: translateY(4px);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.title {
+  color: green;
+}
+
+.signature {
+  color: rgb(197, 43, 120);
+  font-size: 12px;
+}
